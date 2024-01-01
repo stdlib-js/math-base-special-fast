@@ -35,30 +35,20 @@ limitations under the License.
 
 > Fast math special functions.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-fast
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var fmath = require( '@stdlib/math-base-special-fast' );
+import fmath from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { abs, acosh, ampbm, asinh, atanh, hypot, log2Uint32, max, min, powint, sqrtUint32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast@esm/index.mjs';
 ```
 
 #### fmath
@@ -117,11 +107,20 @@ var fcns = fmath;
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var fmath = require( '@stdlib/math-base-special-fast' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
+import fmath from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast@esm/index.mjs';
 
 console.log( objectKeys( fmath ) );
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -145,7 +144,7 @@ console.log( objectKeys( fmath ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -207,27 +206,27 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/base/special/fast/abs]: https://github.com/stdlib-js/math-base-special-fast-abs
+[@stdlib/math/base/special/fast/abs]: https://github.com/stdlib-js/math-base-special-fast-abs/tree/esm
 
-[@stdlib/math/base/special/fast/acosh]: https://github.com/stdlib-js/math-base-special-fast-acosh
+[@stdlib/math/base/special/fast/acosh]: https://github.com/stdlib-js/math-base-special-fast-acosh/tree/esm
 
-[@stdlib/math/base/special/fast/alpha-max-plus-beta-min]: https://github.com/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min
+[@stdlib/math/base/special/fast/alpha-max-plus-beta-min]: https://github.com/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min/tree/esm
 
-[@stdlib/math/base/special/fast/asinh]: https://github.com/stdlib-js/math-base-special-fast-asinh
+[@stdlib/math/base/special/fast/asinh]: https://github.com/stdlib-js/math-base-special-fast-asinh/tree/esm
 
-[@stdlib/math/base/special/fast/atanh]: https://github.com/stdlib-js/math-base-special-fast-atanh
+[@stdlib/math/base/special/fast/atanh]: https://github.com/stdlib-js/math-base-special-fast-atanh/tree/esm
 
-[@stdlib/math/base/special/fast/hypot]: https://github.com/stdlib-js/math-base-special-fast-hypot
+[@stdlib/math/base/special/fast/hypot]: https://github.com/stdlib-js/math-base-special-fast-hypot/tree/esm
 
-[@stdlib/math/base/special/fast/max]: https://github.com/stdlib-js/math-base-special-fast-max
+[@stdlib/math/base/special/fast/max]: https://github.com/stdlib-js/math-base-special-fast-max/tree/esm
 
-[@stdlib/math/base/special/fast/min]: https://github.com/stdlib-js/math-base-special-fast-min
+[@stdlib/math/base/special/fast/min]: https://github.com/stdlib-js/math-base-special-fast-min/tree/esm
 
-[@stdlib/math/base/special/fast/pow-int]: https://github.com/stdlib-js/math-base-special-fast-pow-int
+[@stdlib/math/base/special/fast/pow-int]: https://github.com/stdlib-js/math-base-special-fast-pow-int/tree/esm
 
-[@stdlib/math/base/special/fast/uint32-log2]: https://github.com/stdlib-js/math-base-special-fast-uint32-log2
+[@stdlib/math/base/special/fast/uint32-log2]: https://github.com/stdlib-js/math-base-special-fast-uint32-log2/tree/esm
 
-[@stdlib/math/base/special/fast/uint32-sqrt]: https://github.com/stdlib-js/math-base-special-fast-uint32-sqrt
+[@stdlib/math/base/special/fast/uint32-sqrt]: https://github.com/stdlib-js/math-base-special-fast-uint32-sqrt/tree/esm
 
 <!-- </toc-links> -->
 
