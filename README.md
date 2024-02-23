@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import fmath from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast@deno/mod.js';
+import fmath from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { abs, acosh, ampbm, asinh, atanh, hypot, log2Uint32, max, min, powint, sqrtUint32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast@deno/mod.js';
+import { abs, acosh, ampbm, asinh, atanh, hypot, log2Uint32, max, min, powint, sqrtUint32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast@v0.2.1-deno/mod.js';
 ```
 
 #### fmath
@@ -109,7 +109,7 @@ var fcns = fmath;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import fmath from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast@deno/mod.js';
+import fmath from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast@v0.2.1-deno/mod.js';
 
 console.log( objectKeys( fmath ) );
 ```
