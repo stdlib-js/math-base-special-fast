@@ -64,7 +64,7 @@
     "@stdlib/math-base-special-floor": "^0.2.2",
     "@stdlib/math-base-special-hypot": "^0.2.1",
     "@stdlib/math-base-special-labs": "^0.2.1",
-    "@stdlib/math-base-special-ln": "^0.2.1",
+    "@stdlib/math-base-special-ln": "^0.2.3",
     "@stdlib/math-base-special-log2": "^0.2.1",
     "@stdlib/math-base-special-pow": "^0.2.1",
     "@stdlib/math-base-special-round": "^0.2.1",
