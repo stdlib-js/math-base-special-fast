@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2024-12-09)
 
 <section class="packages">
 
@@ -354,7 +354,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 -   Philipp Burckhardt
 -   Pranav Goswami
 -   Rejoan Sardar
--   Rutam
+-   Rutam Kathale
 
 </section>
 
@@ -376,9 +376,9 @@ A total of 7 people contributed to this release. Thank you to the following cont
 -   [`a258a50`](https://github.com/stdlib-js/stdlib/commit/a258a5070f9cbd83ecc4abecf4f81ead083e2bda) - **chore:** update package meta data [(#2087)](https://github.com/stdlib-js/stdlib/pull/2087) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`8a01cf7`](https://github.com/stdlib-js/stdlib/commit/8a01cf7d39551d8fd0481be8d3e4aa3b9ba88b9d) - **feat:** add C implementation for `math/base/special/fast/uint32-sqrt` _(by Rejoan Sardar)_
 -   [`f36cfab`](https://github.com/stdlib-js/stdlib/commit/f36cfab3875404fd9c58b6e2a6fedca5e04cb4d9) - **chore:** update package meta data [(#2014)](https://github.com/stdlib-js/stdlib/pull/2014) _(by stdlib-bot)_
--   [`c17484a`](https://github.com/stdlib-js/stdlib/commit/c17484ad1830ddfdb3abbe96589b406096e389e1) - **feat:** add C implementation for `math/base/special/fast/uint32-log2` [(#1946)](https://github.com/stdlib-js/stdlib/pull/1946) _(by Rutam, Athan Reines, Pranav Goswami)_
+-   [`c17484a`](https://github.com/stdlib-js/stdlib/commit/c17484ad1830ddfdb3abbe96589b406096e389e1) - **feat:** add C implementation for `math/base/special/fast/uint32-log2` [(#1946)](https://github.com/stdlib-js/stdlib/pull/1946) _(by Rutam Kathale, Athan Reines, Pranav Goswami)_
 -   [`abf4652`](https://github.com/stdlib-js/stdlib/commit/abf4652e755a88031ee35c182b34d48effe25e43) - **feat:** add C implementation of `math/base/special/fast/alpha-max-plus-beta-min` [(#1947)](https://github.com/stdlib-js/stdlib/pull/1947) _(by Ayaka, Athan Reines)_
--   [`7c8d0ce`](https://github.com/stdlib-js/stdlib/commit/7c8d0ced2596cd1ed9e4dec0a40915dd91f59537) - **fix:** missing headers in C examples [(#1958)](https://github.com/stdlib-js/stdlib/pull/1958) _(by Rutam)_
+-   [`7c8d0ce`](https://github.com/stdlib-js/stdlib/commit/7c8d0ced2596cd1ed9e4dec0a40915dd91f59537) - **fix:** missing headers in C examples [(#1958)](https://github.com/stdlib-js/stdlib/pull/1958) _(by Rutam Kathale)_
 -   [`7556fd8`](https://github.com/stdlib-js/stdlib/commit/7556fd8455fa74cea1e9d3b5cf6df203801c962e) - **feat:** add C implementation for `math/base/special/fast/atanh` _(by Rejoan Sardar, Pranav Goswami)_
 -   [`5b5ce15`](https://github.com/stdlib-js/stdlib/commit/5b5ce15628dac972c3f842b1b0233b3b9913f04e) - **feat:** add C implementation for `math/base/special/fast/pow-int` _(by Gunj Joshi, Pranav Goswami)_
 -   [`5a81f05`](https://github.com/stdlib-js/stdlib/commit/5a81f050b2467e6ebf8d3f242511428cc0a3b49e) - **feat:** add C implementation for `math/base/special/fast/min` _(by Rejoan Sardar, Pranav Goswami, Philipp Burckhardt)_
