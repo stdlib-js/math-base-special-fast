@@ -4,28 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-07)
-
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Karan Anand
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
+## Unreleased (2025-05-12)
 
 <section class="commits">
 
@@ -33,6 +12,10 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`b8286e1`](https://github.com/stdlib-js/stdlib/commit/b8286e14368fbfaba1b39964f9ebe11801edaea0) - **bench:** updates random value generation and docs [(#6658)](https://github.com/stdlib-js/stdlib/pull/6658) _(by Harsh)_
+-   [`0283c27`](https://github.com/stdlib-js/stdlib/commit/0283c27a0c7795f636dddb096ed5d59e1597b0ad) - **bench:** update random value generation [(#6649)](https://github.com/stdlib-js/stdlib/pull/6649) _(by Harsh)_
+-   [`f1d9b23`](https://github.com/stdlib-js/stdlib/commit/f1d9b232a15c53531ab7110d2f9ccf4ff6db9a5e) - **bench:** update random value generation [(#6645)](https://github.com/stdlib-js/stdlib/pull/6645) _(by Harsh)_
+-   [`5982554`](https://github.com/stdlib-js/stdlib/commit/59825542a6f81a71eb16ce2007aac9c12f351938) - **docs:** replace manual `for` loop in examples [(#6644)](https://github.com/stdlib-js/stdlib/pull/6644) _(by Harsh)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`bd18248`](https://github.com/stdlib-js/stdlib/commit/bd1824843709cd0ba9de4351fceefd27069293c7) - **docs:** update related packages sections [(#4675)](https://github.com/stdlib-js/stdlib/pull/4675) _(by stdlib-bot, Philipp Burckhardt)_
@@ -49,6 +32,20 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Harsh
+-   Karan Anand
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -57,287 +54,36 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ## 0.3.0 (2024-07-28)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="math-base-special-fast-abs-v0.3.0">
-
-#### [@stdlib/math/base/special/fast/abs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/abs)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
--   [`f134dac`](https://github.com/stdlib-js/stdlib/commit/f134dac2965e729dd0e662f8ec3d952770310149) - add C implementation for `math/base/special/fast/abs`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-acosh-v0.3.0">
-
-#### [@stdlib/math/base/special/fast/acosh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/acosh)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`43f7bc2`](https://github.com/stdlib-js/stdlib/commit/43f7bc27ac49f36204bcd54f7f21f2508d4045d5) - add C implementation for `math/base/special/fast/acosh`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-alpha-max-plus-beta-min-v0.3.0">
-
-#### [@stdlib/math/base/special/fast/alpha-max-plus-beta-min](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/alpha-max-plus-beta-min)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`8a01cf7`](https://github.com/stdlib-js/stdlib/commit/8a01cf7d39551d8fd0481be8d3e4aa3b9ba88b9d) - add C implementation for `math/base/special/fast/uint32-sqrt`
+-   [`c17484a`](https://github.com/stdlib-js/stdlib/commit/c17484ad1830ddfdb3abbe96589b406096e389e1) - add C implementation for `math/base/special/fast/uint32-log2` [(#1946)](https://github.com/stdlib-js/stdlib/pull/1946)
 -   [`abf4652`](https://github.com/stdlib-js/stdlib/commit/abf4652e755a88031ee35c182b34d48effe25e43) - add C implementation of `math/base/special/fast/alpha-max-plus-beta-min` [(#1947)](https://github.com/stdlib-js/stdlib/pull/1947)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#1938](https://github.com/stdlib-js/stdlib/issues/1938)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-asinh-v0.3.0">
-
-#### [@stdlib/math/base/special/fast/asinh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/asinh)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`8b20f6a`](https://github.com/stdlib-js/stdlib/commit/8b20f6a9c3b782cfe379c58d33c69c4683edcfce) - add C implementation for `math/base/special/fast/asinh`
-
-</section>
-
-<!-- /.features -->
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`433bb99`](https://github.com/stdlib-js/stdlib/commit/433bb998206acd124e8856b4e1b6f84803c26b47) - move addition by one into the sqrt invocation
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-atanh-v0.3.0">
-
-#### [@stdlib/math/base/special/fast/atanh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/atanh)
-
-<details>
-
-<section class="features">
-
-##### Features
-
 -   [`7556fd8`](https://github.com/stdlib-js/stdlib/commit/7556fd8455fa74cea1e9d3b5cf6df203801c962e) - add C implementation for `math/base/special/fast/atanh`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-hypot-v0.3.0">
-
-#### [@stdlib/math/base/special/fast/hypot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/hypot)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`5b5ce15`](https://github.com/stdlib-js/stdlib/commit/5b5ce15628dac972c3f842b1b0233b3b9913f04e) - add C implementation for `math/base/special/fast/pow-int`
+-   [`5a81f05`](https://github.com/stdlib-js/stdlib/commit/5a81f050b2467e6ebf8d3f242511428cc0a3b49e) - add C implementation for `math/base/special/fast/min`
+-   [`67e90ff`](https://github.com/stdlib-js/stdlib/commit/67e90fff25e4e33de75e060ea2fa9ee25df3b433) - add C implementation for `math/base/special/fast/max`
+-   [`8b20f6a`](https://github.com/stdlib-js/stdlib/commit/8b20f6a9c3b782cfe379c58d33c69c4683edcfce) - add C implementation for `math/base/special/fast/asinh`
+-   [`f134dac`](https://github.com/stdlib-js/stdlib/commit/f134dac2965e729dd0e662f8ec3d952770310149) - add C implementation for `math/base/special/fast/abs`
+-   [`43f7bc2`](https://github.com/stdlib-js/stdlib/commit/43f7bc27ac49f36204bcd54f7f21f2508d4045d5) - add C implementation for `math/base/special/fast/acosh`
 -   [`bdb2441`](https://github.com/stdlib-js/stdlib/commit/bdb24411c6bf1498c94ba15246d3134c43653640) - add C implementation for `math/base/special/fast/hypot` 
 
 </section>
 
 <!-- /.features -->
 
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-max-v0.3.0">
-
-#### [@stdlib/math/base/special/fast/max](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/max)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`67e90ff`](https://github.com/stdlib-js/stdlib/commit/67e90fff25e4e33de75e060ea2fa9ee25df3b433) - add C implementation for `math/base/special/fast/max`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-min-v0.3.0">
-
-#### [@stdlib/math/base/special/fast/min](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/min)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`5a81f05`](https://github.com/stdlib-js/stdlib/commit/5a81f050b2467e6ebf8d3f242511428cc0a3b49e) - add C implementation for `math/base/special/fast/min`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-pow-int-v0.3.0">
-
-#### [@stdlib/math/base/special/fast/pow-int](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/pow-int)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`5b5ce15`](https://github.com/stdlib-js/stdlib/commit/5b5ce15628dac972c3f842b1b0233b3b9913f04e) - add C implementation for `math/base/special/fast/pow-int`
-
-</section>
-
-<!-- /.features -->
-
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
 -   [`7c8d0ce`](https://github.com/stdlib-js/stdlib/commit/7c8d0ced2596cd1ed9e4dec0a40915dd91f59537) - missing headers in C examples [(#1958)](https://github.com/stdlib-js/stdlib/pull/1958)
+-   [`433bb99`](https://github.com/stdlib-js/stdlib/commit/433bb998206acd124e8856b4e1b6f84803c26b47) - move addition by one into the sqrt invocation
 
 </section>
 
 <!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-uint32-log2-v0.3.0">
-
-#### [@stdlib/math/base/special/fast/uint32-log2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/uint32-log2)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`c17484a`](https://github.com/stdlib-js/stdlib/commit/c17484ad1830ddfdb3abbe96589b406096e389e1) - add C implementation for `math/base/special/fast/uint32-log2` [(#1946)](https://github.com/stdlib-js/stdlib/pull/1946)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-uint32-sqrt-v0.3.0">
-
-#### [@stdlib/math/base/special/fast/uint32-sqrt](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/uint32-sqrt)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`8a01cf7`](https://github.com/stdlib-js/stdlib/commit/8a01cf7d39551d8fd0481be8d3e4aa3b9ba88b9d) - add C implementation for `math/base/special/fast/uint32-sqrt`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="issues">
 
@@ -350,24 +96,6 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 7 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Ayaka
--   Gunj Joshi
--   Philipp Burckhardt
--   Pranav Goswami
--   Rejoan Sardar
--   Rutam Kathale
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -407,6 +135,24 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 7 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Ayaka
+-   Gunj Joshi
+-   Philipp Burckhardt
+-   Pranav Goswami
+-   Rejoan Sardar
+-   Rutam Kathale
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -424,27 +170,6 @@ No changes reported for this release.
 <section class="release" id="v0.2.0">
 
 ## 0.2.0 (2024-02-14)
-
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -464,6 +189,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -482,421 +220,15 @@ No changes reported for this release.
 
 ## 0.1.0 (2023-09-23)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="math-base-special-fast-v0.1.0">
-
-#### [@stdlib/math/base/special/fast](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-abs-v0.1.0">
-
-#### [@stdlib/math/base/special/fast/abs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/abs)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-acosh-v0.1.0">
-
-#### [@stdlib/math/base/special/fast/acosh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/acosh)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-alpha-max-plus-beta-min-v0.1.0">
-
-#### [@stdlib/math/base/special/fast/alpha-max-plus-beta-min](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/alpha-max-plus-beta-min)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-asinh-v0.1.0">
-
-#### [@stdlib/math/base/special/fast/asinh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/asinh)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-atanh-v0.1.0">
-
-#### [@stdlib/math/base/special/fast/atanh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/atanh)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-hypot-v0.1.0">
-
-#### [@stdlib/math/base/special/fast/hypot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/hypot)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-max-v0.1.0">
-
-#### [@stdlib/math/base/special/fast/max](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/max)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-min-v0.1.0">
-
-#### [@stdlib/math/base/special/fast/min](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/min)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-pow-int-v0.1.0">
-
-#### [@stdlib/math/base/special/fast/pow-int](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/pow-int)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-uint32-log2-v0.1.0">
-
-#### [@stdlib/math/base/special/fast/uint32-log2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/uint32-log2)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-special-fast-uint32-sqrt-v0.1.0">
-
-#### [@stdlib/math/base/special/fast/uint32-sqrt](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/uint32-sqrt)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -909,18 +241,6 @@ No changes reported for this release.
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -938,6 +258,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
