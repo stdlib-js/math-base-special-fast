@@ -48,7 +48,8 @@
     "@stdlib/math-base-special-fast-pow-int": "^0.3.0",
     "@stdlib/math-base-special-fast-uint32-log2": "^0.3.0",
     "@stdlib/math-base-special-fast-uint32-sqrt": "^0.3.0",
-    "@stdlib/utils-define-read-only-property": "^0.2.2"
+    "@stdlib/utils-define-read-only-property": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
