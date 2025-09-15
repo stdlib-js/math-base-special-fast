@@ -3,7 +3,30 @@
   "version": "0.3.0",
   "description": "Fast math special functions.",
   "license": "Apache-2.0",
-  "main": "./index.js",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "./lib",
+  "directories": {
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -12,6 +35,77 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
+  "dependencies": {
+    "@stdlib/math-base-special-fast-abs": "^0.3.0",
+    "@stdlib/math-base-special-fast-absf": "github:stdlib-js/math-base-special-fast-absf#main",
+    "@stdlib/math-base-special-fast-acosh": "^0.3.0",
+    "@stdlib/math-base-special-fast-alpha-max-plus-beta-min": "^0.3.0",
+    "@stdlib/math-base-special-fast-asinh": "^0.3.0",
+    "@stdlib/math-base-special-fast-atanh": "^0.3.0",
+    "@stdlib/math-base-special-fast-hypot": "^0.3.0",
+    "@stdlib/math-base-special-fast-max": "^0.3.0",
+    "@stdlib/math-base-special-fast-min": "^0.3.0",
+    "@stdlib/math-base-special-fast-pow-int": "^0.3.0",
+    "@stdlib/math-base-special-fast-uint32-log2": "^0.3.0",
+    "@stdlib/math-base-special-fast-uint32-sqrt": "^0.3.0",
+    "@stdlib/utils-define-read-only-property": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
+  },
+  "devDependencies": {
+    "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
+    "@stdlib/constants-float32-ninf": "^0.2.2",
+    "@stdlib/constants-float32-pinf": "^0.2.2",
+    "@stdlib/constants-float64-eps": "^0.2.2",
+    "@stdlib/constants-float64-ninf": "^0.2.2",
+    "@stdlib/constants-float64-pi": "^0.2.2",
+    "@stdlib/constants-float64-pinf": "^0.2.2",
+    "@stdlib/math-base-assert-is-infinite": "^0.2.2",
+    "@stdlib/math-base-assert-is-nan": "^0.2.2",
+    "@stdlib/math-base-assert-is-nanf": "^0.2.2",
+    "@stdlib/math-base-assert-is-negative-zero": "^0.2.2",
+    "@stdlib/math-base-assert-is-negative-zerof": "^0.1.3",
+    "@stdlib/math-base-assert-is-positive-zero": "^0.2.2",
+    "@stdlib/math-base-special-abs": "^0.2.2",
+    "@stdlib/math-base-special-ceil": "^0.2.2",
+    "@stdlib/math-base-special-floor": "^0.2.3",
+    "@stdlib/math-base-special-hypot": "^0.2.2",
+    "@stdlib/math-base-special-labs": "^0.2.2",
+    "@stdlib/math-base-special-ln": "^0.2.4",
+    "@stdlib/math-base-special-log2": "^0.3.0",
+    "@stdlib/math-base-special-pow": "^0.3.0",
+    "@stdlib/math-base-special-round": "^0.3.0",
+    "@stdlib/math-base-special-roundn": "^0.2.2",
+    "@stdlib/math-base-special-sqrt": "^0.2.2",
+    "@stdlib/math-base-special-sqrtf": "^0.2.2",
+    "@stdlib/number-float32-base-ulp-difference": "github:stdlib-js/number-float32-base-ulp-difference#main",
+    "@stdlib/number-float64-base-to-float32": "^0.2.2",
+    "@stdlib/random-array-discrete-uniform": "^0.2.1",
+    "@stdlib/random-array-uniform": "^0.2.1",
+    "@stdlib/random-base-minstd-shuffle": "^0.2.1",
+    "@stdlib/random-base-randu": "^0.2.1",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
+    "@stdlib/utils-keys": "^0.2.2",
+    "@stdlib/utils-try-require": "^0.2.2",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
+    "@stdlib/bench-harness": "^0.2.2"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "stdmath",
