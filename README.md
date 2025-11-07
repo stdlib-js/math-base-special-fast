@@ -77,6 +77,7 @@ var fcns = fmath;
 <div class="namespace-toc">
 
 -   <span class="signature">[`abs( x )`][@stdlib/math/base/special/fast/abs]</span><span class="delimiter">: </span><span class="description">compute an absolute value.</span>
+-   <span class="signature">[`absf( x )`][@stdlib/math/base/special/fast/absf]</span><span class="delimiter">: </span><span class="description">compute the absolute value of a single-precision floating-point number.</span>
 -   <span class="signature">[`acosh( x )`][@stdlib/math/base/special/fast/acosh]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic arccosine of a number.</span>
 -   <span class="signature">[`ampbm( x, y )`][@stdlib/math/base/special/fast/alpha-max-plus-beta-min]</span><span class="delimiter">: </span><span class="description">compute the hypotenuse using the alpha max plus beta min algorithm.</span>
 -   <span class="signature">[`asinh( x )`][@stdlib/math/base/special/fast/asinh]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic arcsine of a number.</span>
@@ -213,6 +214,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 <!-- <toc-links> -->
 
 [@stdlib/math/base/special/fast/abs]: https://github.com/stdlib-js/math-base-special-fast-abs
+
+[@stdlib/math/base/special/fast/absf]: https://github.com/stdlib-js/math-base-special-fast-absf
 
 [@stdlib/math/base/special/fast/acosh]: https://github.com/stdlib-js/math-base-special-fast-acosh
 
