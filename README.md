@@ -35,32 +35,38 @@ limitations under the License.
 
 > Fast math special functions.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-fast
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var fmath = require( '@stdlib/math-base-special-fast' );
+fmath = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var fmath = require( 'path/to/vendor/umd/math-base-special-fast/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.fmath;
+})();
+</script>
 ```
 
 #### fmath
@@ -120,11 +126,21 @@ var fcns = fmath;
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var fmath = require( '@stdlib/math-base-special-fast' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 console.log( objectKeys( fmath ) );
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -213,29 +229,29 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/base/special/fast/abs]: https://github.com/stdlib-js/math-base-special-fast-abs
+[@stdlib/math/base/special/fast/abs]: https://github.com/stdlib-js/math-base-special-fast-abs/tree/umd
 
-[@stdlib/math/base/special/fast/absf]: https://github.com/stdlib-js/math-base-special-fast-absf
+[@stdlib/math/base/special/fast/absf]: https://github.com/stdlib-js/math-base-special-fast-absf/tree/umd
 
-[@stdlib/math/base/special/fast/acosh]: https://github.com/stdlib-js/math-base-special-fast-acosh
+[@stdlib/math/base/special/fast/acosh]: https://github.com/stdlib-js/math-base-special-fast-acosh/tree/umd
 
-[@stdlib/math/base/special/fast/alpha-max-plus-beta-min]: https://github.com/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min
+[@stdlib/math/base/special/fast/alpha-max-plus-beta-min]: https://github.com/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min/tree/umd
 
-[@stdlib/math/base/special/fast/asinh]: https://github.com/stdlib-js/math-base-special-fast-asinh
+[@stdlib/math/base/special/fast/asinh]: https://github.com/stdlib-js/math-base-special-fast-asinh/tree/umd
 
-[@stdlib/math/base/special/fast/atanh]: https://github.com/stdlib-js/math-base-special-fast-atanh
+[@stdlib/math/base/special/fast/atanh]: https://github.com/stdlib-js/math-base-special-fast-atanh/tree/umd
 
-[@stdlib/math/base/special/fast/hypot]: https://github.com/stdlib-js/math-base-special-fast-hypot
+[@stdlib/math/base/special/fast/hypot]: https://github.com/stdlib-js/math-base-special-fast-hypot/tree/umd
 
-[@stdlib/math/base/special/fast/max]: https://github.com/stdlib-js/math-base-special-fast-max
+[@stdlib/math/base/special/fast/max]: https://github.com/stdlib-js/math-base-special-fast-max/tree/umd
 
-[@stdlib/math/base/special/fast/min]: https://github.com/stdlib-js/math-base-special-fast-min
+[@stdlib/math/base/special/fast/min]: https://github.com/stdlib-js/math-base-special-fast-min/tree/umd
 
-[@stdlib/math/base/special/fast/pow-int]: https://github.com/stdlib-js/math-base-special-fast-pow-int
+[@stdlib/math/base/special/fast/pow-int]: https://github.com/stdlib-js/math-base-special-fast-pow-int/tree/umd
 
-[@stdlib/math/base/special/fast/uint32-log2]: https://github.com/stdlib-js/math-base-special-fast-uint32-log2
+[@stdlib/math/base/special/fast/uint32-log2]: https://github.com/stdlib-js/math-base-special-fast-uint32-log2/tree/umd
 
-[@stdlib/math/base/special/fast/uint32-sqrt]: https://github.com/stdlib-js/math-base-special-fast-uint32-sqrt
+[@stdlib/math/base/special/fast/uint32-sqrt]: https://github.com/stdlib-js/math-base-special-fast-uint32-sqrt/tree/umd
 
 <!-- </toc-links> -->
 
