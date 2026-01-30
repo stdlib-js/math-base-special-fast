@@ -2,14 +2,15 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.4.0">
 
-## Unreleased (2025-11-07)
+## 0.4.0 (2026-01-30)
 
 <section class="features">
 
 ### Features
 
+-   [`cb09f58`](https://github.com/stdlib-js/stdlib/commit/cb09f5862f03c3056c8259164653940108068f30) - add `math/base/special/fast/atanhf` [(#9046)](https://github.com/stdlib-js/stdlib/pull/9046)
 -   [`8f581f1`](https://github.com/stdlib-js/stdlib/commit/8f581f122d9592e1e14707ed8c84884a525ce01c) - add `math/base/special/fast/minf` [(#8112)](https://github.com/stdlib-js/stdlib/pull/8112)
 -   [`0c12692`](https://github.com/stdlib-js/stdlib/commit/0c1269252e78645d914d9bbb8fb2221599ca6c2d) - update `math/base/special/fast` TypeScript declarations
 -   [`dd2f99a`](https://github.com/stdlib-js/stdlib/commit/dd2f99ad80d15b184cb0a19a3ff77d38efc4ec6f) - add `math/base/special/fast/maxf` [(#8105)](https://github.com/stdlib-js/stdlib/pull/8105)
@@ -32,12 +33,29 @@
 
 <!-- /.bug-fixes -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#9754](https://github.com/stdlib-js/stdlib/issues/9754)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`a0f0513`](https://github.com/stdlib-js/stdlib/commit/a0f05135e37f5343ba7870b16e124ff2d642643d) - **chore:** fix EditorConfig lint errors [(#9755)](https://github.com/stdlib-js/stdlib/pull/9755) _(by Divyanshu)_
+-   [`518339b`](https://github.com/stdlib-js/stdlib/commit/518339b9e202765284968c5bb40a458bf25c9425) - **chore:** remove extra empty line [(#9617)](https://github.com/stdlib-js/stdlib/pull/9617) _(by stdlib-bot)_
+-   [`8e05341`](https://github.com/stdlib-js/stdlib/commit/8e0534149457bd04a06ae3c59d726191e32a1dcf) - **chore:** clean-up _(by Athan Reines)_
+-   [`cb09f58`](https://github.com/stdlib-js/stdlib/commit/cb09f5862f03c3056c8259164653940108068f30) - **feat:** add `math/base/special/fast/atanhf` [(#9046)](https://github.com/stdlib-js/stdlib/pull/9046) _(by Nakul Krishnakumar, Philipp Burckhardt, stdlib-bot)_
+-   [`a9fb57e`](https://github.com/stdlib-js/stdlib/commit/a9fb57ec46973d10d247dfbe68d0b11a24970688) - **docs:** update descriptions _(by Philipp Burckhardt)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`8f581f1`](https://github.com/stdlib-js/stdlib/commit/8f581f122d9592e1e14707ed8c84884a525ce01c) - **feat:** add `math/base/special/fast/minf` [(#8112)](https://github.com/stdlib-js/stdlib/pull/8112) _(by Nakul Krishnakumar)_
 -   [`0c12692`](https://github.com/stdlib-js/stdlib/commit/0c1269252e78645d914d9bbb8fb2221599ca6c2d) - **feat:** update `math/base/special/fast` TypeScript declarations _(by Philipp Burckhardt)_
@@ -84,9 +102,10 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Divyanshu
 -   Harsh Yadav
 -   Karan Anand
 -   Nakul Krishnakumar
