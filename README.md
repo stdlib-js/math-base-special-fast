@@ -35,20 +35,32 @@ limitations under the License.
 
 > Fast math special functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-fast
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import fmath from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { abs, absf, acosh, ampbm, asinh, atanh, hypot, log2Uint32, max, min, powint, sqrtUint32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast@deno/mod.js';
+var fmath = require( '@stdlib/math-base-special-fast' );
 ```
 
 #### fmath
@@ -109,8 +121,8 @@ var fcns = fmath;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import fmath from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var fmath = require( '@stdlib/math-base-special-fast' );
 
 console.log( objectKeys( fmath ) );
 ```
@@ -136,7 +148,7 @@ console.log( objectKeys( fmath ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -153,7 +165,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -166,8 +178,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-base-special-fast.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-base-special-fast
 
-[test-image]: https://github.com/stdlib-js/math-base-special-fast/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/math-base-special-fast/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/math-base-special-fast/actions/workflows/test.yml/badge.svg?branch=v0.4.0
+[test-url]: https://github.com/stdlib-js/math-base-special-fast/actions/workflows/test.yml?query=branch:v0.4.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special-fast/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base-special-fast?branch=main
@@ -179,8 +191,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -201,29 +213,29 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/base/special/fast/abs]: https://github.com/stdlib-js/math-base-special-fast-abs/tree/deno
+[@stdlib/math/base/special/fast/abs]: https://github.com/stdlib-js/math-base-special-fast-abs
 
-[@stdlib/math/base/special/fast/absf]: https://github.com/stdlib-js/math-base-special-fast-absf/tree/deno
+[@stdlib/math/base/special/fast/absf]: https://github.com/stdlib-js/math-base-special-fast-absf
 
-[@stdlib/math/base/special/fast/acosh]: https://github.com/stdlib-js/math-base-special-fast-acosh/tree/deno
+[@stdlib/math/base/special/fast/acosh]: https://github.com/stdlib-js/math-base-special-fast-acosh
 
-[@stdlib/math/base/special/fast/alpha-max-plus-beta-min]: https://github.com/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min/tree/deno
+[@stdlib/math/base/special/fast/alpha-max-plus-beta-min]: https://github.com/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min
 
-[@stdlib/math/base/special/fast/asinh]: https://github.com/stdlib-js/math-base-special-fast-asinh/tree/deno
+[@stdlib/math/base/special/fast/asinh]: https://github.com/stdlib-js/math-base-special-fast-asinh
 
-[@stdlib/math/base/special/fast/atanh]: https://github.com/stdlib-js/math-base-special-fast-atanh/tree/deno
+[@stdlib/math/base/special/fast/atanh]: https://github.com/stdlib-js/math-base-special-fast-atanh
 
-[@stdlib/math/base/special/fast/hypot]: https://github.com/stdlib-js/math-base-special-fast-hypot/tree/deno
+[@stdlib/math/base/special/fast/hypot]: https://github.com/stdlib-js/math-base-special-fast-hypot
 
-[@stdlib/math/base/special/fast/max]: https://github.com/stdlib-js/math-base-special-fast-max/tree/deno
+[@stdlib/math/base/special/fast/max]: https://github.com/stdlib-js/math-base-special-fast-max
 
-[@stdlib/math/base/special/fast/min]: https://github.com/stdlib-js/math-base-special-fast-min/tree/deno
+[@stdlib/math/base/special/fast/min]: https://github.com/stdlib-js/math-base-special-fast-min
 
-[@stdlib/math/base/special/fast/pow-int]: https://github.com/stdlib-js/math-base-special-fast-pow-int/tree/deno
+[@stdlib/math/base/special/fast/pow-int]: https://github.com/stdlib-js/math-base-special-fast-pow-int
 
-[@stdlib/math/base/special/fast/uint32-log2]: https://github.com/stdlib-js/math-base-special-fast-uint32-log2/tree/deno
+[@stdlib/math/base/special/fast/uint32-log2]: https://github.com/stdlib-js/math-base-special-fast-uint32-log2
 
-[@stdlib/math/base/special/fast/uint32-sqrt]: https://github.com/stdlib-js/math-base-special-fast-uint32-sqrt/tree/deno
+[@stdlib/math/base/special/fast/uint32-sqrt]: https://github.com/stdlib-js/math-base-special-fast-uint32-sqrt
 
 <!-- </toc-links> -->
 
