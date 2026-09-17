@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-29)
+## Unreleased (2026-09-17)
 
 <section class="bug-fixes">
 
@@ -35,6 +35,11 @@ This release closes the following issue:
 
 <details>
 
+-   [`1a14048`](https://github.com/stdlib-js/stdlib/commit/1a140488d5cef9fc7bf5651a386811da784e7129) - **test:** migrate `math/base/special/fast/atanh` to ULP-based assertions [(#14457)](https://github.com/stdlib-js/stdlib/pull/14457) _(by Athan Reines)_
+-   [`c2ff88b`](https://github.com/stdlib-js/stdlib/commit/c2ff88bf6a950103ea583018583dd1fb2ec76351) - **test:** migrate `math/base/special/fast/hypot` to ULP-based assertions [(#14375)](https://github.com/stdlib-js/stdlib/pull/14375) _(by Athan Reines)_
+-   [`4cf9190`](https://github.com/stdlib-js/stdlib/commit/4cf9190677910a7333df7a393c52a499f83dbf2b) - **test:** migrate `math/base/special/fast/asinh` to ULP-based assertions [(#14079)](https://github.com/stdlib-js/stdlib/pull/14079) _(by Athan Reines)_
+-   [`6b698ba`](https://github.com/stdlib-js/stdlib/commit/6b698ba5c63b28c95b2f90548d399a8170f79385) - **test:** migrate `math/base/special/fast/pow-int` to ULP-based assertions [(#14009)](https://github.com/stdlib-js/stdlib/pull/14009) _(by Ujjwal Verma)_
+-   [`a831cc5`](https://github.com/stdlib-js/stdlib/commit/a831cc5f349ae6ddc6ff0e5fb23c52bba024ea9e) - **test:** migrate `math/base/special/fast/acosh` to ULP-based assertions [(#14004)](https://github.com/stdlib-js/stdlib/pull/14004) _(by Athan Reines)_
 -   [`b953edd`](https://github.com/stdlib-js/stdlib/commit/b953edd95d0ca1b521d0abbd2c2719d099ff7807) - **refactor:** use `constants/float64/nan` and clean-up [(#13585)](https://github.com/stdlib-js/stdlib/pull/13585) _(by Philipp Burckhardt)_
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - **fix:** correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088) _(by anee3)_
 -   [`39c4de7`](https://github.com/stdlib-js/stdlib/commit/39c4de75a25292c00909cda17a7cb055113e608e) - **bench:** refactor to use string interpolation in `math/base/special` [(#11390)](https://github.com/stdlib-js/stdlib/pull/11390) _(by Karan Anand)_
@@ -51,11 +56,13 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Karan Anand
 -   Moh Zaid Khan
 -   Philipp Burckhardt
+-   Ujjwal Verma
 -   anee3
 
 </section>
