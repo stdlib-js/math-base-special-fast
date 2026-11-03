@@ -4,7 +4,18 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-17)
+## Unreleased (2026-11-03)
+
+<section class="features">
+
+### Features
+
+-   [`05ed6e8`](https://github.com/stdlib-js/stdlib/commit/05ed6e856f1a438383cd761b9b743d26e3f9554d) - add `math/base/special/fast/acoshf` [(#8984)](https://github.com/stdlib-js/stdlib/pull/8984)
+-   [`46e7def`](https://github.com/stdlib-js/stdlib/commit/46e7defa875f829220eec20bd205250839adff3e) - add `math/base/special/fast/asinhf` [(#8987)](https://github.com/stdlib-js/stdlib/pull/8987)
+
+</section>
+
+<!-- /.features -->
 
 <section class="bug-fixes">
 
@@ -35,6 +46,11 @@ This release closes the following issue:
 
 <details>
 
+-   [`accef08`](https://github.com/stdlib-js/stdlib/commit/accef08061b43e666ef44d0673cce0ab5db76bf3) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`ee0f8b8`](https://github.com/stdlib-js/stdlib/commit/ee0f8b81c2f2a317660ec9b8296516037cc66e3d) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`d175fd6`](https://github.com/stdlib-js/stdlib/commit/d175fd63bd070783ff6c4a2b2b9bf1922e1da687) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`05ed6e8`](https://github.com/stdlib-js/stdlib/commit/05ed6e856f1a438383cd761b9b743d26e3f9554d) - **feat:** add `math/base/special/fast/acoshf` [(#8984)](https://github.com/stdlib-js/stdlib/pull/8984) _(by Nakul Krishnakumar, Athan Reines, Karan Anand)_
+-   [`46e7def`](https://github.com/stdlib-js/stdlib/commit/46e7defa875f829220eec20bd205250839adff3e) - **feat:** add `math/base/special/fast/asinhf` [(#8987)](https://github.com/stdlib-js/stdlib/pull/8987) _(by Nakul Krishnakumar, Athan Reines, Karan Anand)_
 -   [`1a14048`](https://github.com/stdlib-js/stdlib/commit/1a140488d5cef9fc7bf5651a386811da784e7129) - **test:** migrate `math/base/special/fast/atanh` to ULP-based assertions [(#14457)](https://github.com/stdlib-js/stdlib/pull/14457) _(by Athan Reines)_
 -   [`c2ff88b`](https://github.com/stdlib-js/stdlib/commit/c2ff88bf6a950103ea583018583dd1fb2ec76351) - **test:** migrate `math/base/special/fast/hypot` to ULP-based assertions [(#14375)](https://github.com/stdlib-js/stdlib/pull/14375) _(by Athan Reines)_
 -   [`4cf9190`](https://github.com/stdlib-js/stdlib/commit/4cf9190677910a7333df7a393c52a499f83dbf2b) - **test:** migrate `math/base/special/fast/asinh` to ULP-based assertions [(#14079)](https://github.com/stdlib-js/stdlib/pull/14079) _(by Athan Reines)_
@@ -56,11 +72,12 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
 -   Moh Zaid Khan
+-   Nakul Krishnakumar
 -   Philipp Burckhardt
 -   Ujjwal Verma
 -   anee3
